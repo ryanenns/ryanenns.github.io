@@ -1,0 +1,258 @@
+@media all and (max-width: 948px)
+{
+    body {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    #header {
+        cursor: default;
+    }
+    
+    h1 {
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .item {
+        border-radius: 5px;
+        background-color: lightgray;
+        padding: 4px;
+        margin: auto;
+        width: 275px;
+        max-width: 260px;
+        display: block;
+    }
+    
+    .price {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .img {
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    
+    .words {
+        margin-left: 35px;
+    }
+    
+    .words li{
+        list-style-type: lower-roman;
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+    
+    .title {
+        text-align: center;
+        margin-bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    
+    .title:hover {
+        cursor: default;
+        color: goldenrod;
+    }
+    
+    #navl {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        border-radius: 10px;
+    }
+      
+    #navl li {
+       float: left;
+    }
+      
+    #navl li a {
+        transition-property: all;
+        transition-duration: 0.5s;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+    #navl li a:hover {
+        background-color: goldenrod;
+    }
+    
+    .buy {
+        border-radius: 10px;
+        margin: 25px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    
+    .buy a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .buy:hover {
+        background-color: goldenrod;
+    }
+    
+    .items {
+        display: grid;
+        justify-content: space-around;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px;
+        background-color: #f1f1f1;
+    }
+}
+
+@media all and (min-width: 948px)
+{
+    body {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    #header {
+        cursor: default;
+    }
+    
+    h1 {
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .item {
+        border-radius: 5px;
+        background-color: lightgray;
+        padding: 4px;
+        margin: auto;
+        width: 275px;
+        max-width: 260px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    
+    .price {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .img {
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    
+    .words {
+        margin-left: 35px;
+    }
+    
+    .words li{
+        list-style-type: lower-roman;
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+    
+    .title {
+        text-align: center;
+        margin-bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    
+    .title:hover {
+        cursor: default;
+        color: goldenrod;
+    }
+    
+    #navl {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        border-radius: 10px;
+    }
+      
+    #navl li {
+       float: left;
+    }
+      
+    #navl li a {
+        transition-property: all;
+        transition-duration: 0.5s;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+    #navl li a:hover {
+        background-color: goldenrod;
+    }
+    
+    .buy {
+        border-radius: 10px;
+        margin: 25px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    
+    .buy a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .buy:hover {
+        background-color: goldenrod;
+    }
+    
+    .items {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px;
+        background-color: #f1f1f1;
+    }
+}

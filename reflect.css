@@ -1,0 +1,201 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca
+Academic Policy. No part of this assignment has been copied manually or
+electronically from any other source (including web sites) except for the
+information supplied by the WEB222 instructors and / or made available in this
+assignment for my use.
+I also declare that no part of this assignment has been distributed to other
+students.
+Name: Ryan Enns
+Dated: 2020-04-20
+********************************************************************/
+
+@media all and (max-width: 600px)
+{
+    body{
+        background-color: khaki;
+    }
+}
+
+body {
+    overflow: hidden;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#header {
+    cursor: default;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.item {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 4px;
+    margin: auto;
+    width: 275px;
+    max-width: 260px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.price {
+    text-align: center;
+    margin-top: 0;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.words {
+    margin-left: 35px;
+}
+
+.words li{
+    list-style-type: lower-roman;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.title:hover {
+    cursor: default;
+    color: goldenrod;
+}
+
+#navl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+  
+#navl li {
+   float: left;
+}
+  
+#navl li a {
+    transition-property: all;
+    transition-duration: 0.5s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#navl li a:hover {
+    background-color: goldenrod;
+}
+
+.buy {
+    border-radius: 10px;
+    margin: 25px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.buy a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.buy:hover {
+    background-color: goldenrod;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+
+.items p {
+    text-align: justify;
+}
+
+.items h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reflect {
+    cursor: default;
+    border-radius: 10px;
+    border: lightslategray 1px solid;
+    padding: 40px 75px;
+    text-align: justify;
+    width: 60vw;
+    background-color: darkgray;
+    padding: 25px 50px;
+}
+
+.resdes {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#relate {
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+#responsive {
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+#tech {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#learn {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
